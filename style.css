@@ -1,9 +1,14 @@
-section{
+/* section{
     margin-top: 150px;
-}
+} */
 li{
     list-style: none;
 }
 a{
     text-decoration: none;
 }
+hr{
+
+    color: yellow;
+}
+
