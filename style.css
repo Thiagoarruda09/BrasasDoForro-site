@@ -1,0 +1,15 @@
+section{
+    margin-top: 150px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    padding: 90px;
+    background-image: url(imagens/LogoBanda.jpg);
+    background-size: cover;
+    background-position: center;
+}
