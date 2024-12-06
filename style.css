@@ -1,6 +1,11 @@
-/* section{
-    margin-top: 150px;
-} */
+@font-face {
+    font-family: 'bebas';
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family:'colvetica' ;
+    src: url(fontes/Coolvetica\ Rg.otf);
+}
 
 li{
     list-style: none;
@@ -8,8 +13,39 @@ li{
 a{
     text-decoration: none;
 }
-p{
+p,strong{
     padding: 0px;
+    font-family: colvetica;
 }
+
+.card{
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: 1s;
+}   
+header{
+    font-family: colvetica;
+}
+section > h1,h2{
+    font-family: bebas;
+}
+h3,label,button{
+    font-family: bebas;
+}
+
+button{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
 
 
